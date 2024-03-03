@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jessica Pangan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eras Tour Travel</title>
+  <link rel="website icon" type="images/ico" href="images/logo.png" />
+    <!-- Style Css Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Style Css Link -->
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+    <!-- Google Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <!-- Google Font links -->
+
+</head>
+<body>
+
+    <!-- Header Start -->
+
+    <div class="header">
+        <nav>
+
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+
+            <div class="content">
+
+                <div class="logo">
+                    <div class="logo"><a href="index.html"><img src="./images/logo.png" alt=""></a></div>
+                </div>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="package.html">Packages</a></li>                    
+                    <li><a href="review.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search" required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+                        
+            
+        </nav>
+    </div>
+
+  <!-- Book Section Start -->
+    <section class="book" id="book">
+    				
+        <div class="book-img">
+        			<h2 style="text-align:center; color:white; font-weight:800; font-size:30px; text-decoration: underline; margin-top:-20px;">Seoul, South Korea</h2>
+        			<p style="text-align:justify; color:white;  font-size:20px; margin-top:5px;"> Seoul, South Korea, is a vibrant tapestry of modernity and tradition, where sleek skyscrapers coexist with ancient palaces and bustling street markets. Immerse yourself in the city's rich cultural heritage by exploring historic landmarks like Gyeongbokgung Palace and Bukchon Hanok Village. Indulge in the dynamic culinary scene, from sizzling street food to Michelin-starred restaurants. Dive into the energy of districts like Gangnam and Itaewon for shopping and nightlife, or find serenity in the scenic beauty of Namsan Park and the Han River. Seoul seamlessly blends the old and the new, offering an unforgettable journey through Korea's past and present. </p>
+            <img src="./images/korea.png" alt="">
+        </div>
+        
+        <div class="book-form">
+            <h5 style="text-align:center; font-size:20px;">BOOK YOUR DESTINATION</h5>
+            <form action="ticket/thailand-ticket.html">
+                <input type="text" placeholder="Destination Name" required>
+                <input type="text" placeholder="Flight Type" required>
+                <input type="date" placeholder="Arrivals" required>
+                <input type="date" placeholder="Leaving" required>
+                <textarea name="" id="" cols="5" rows="5" placeholder="Enter Your Name & Details"></textarea>
+                <input style="margin-left:30px;" type="submit" value="Book Now" class="submit" onclick="show();" required>
+            </form>
+        </div>
+    </section>
+    <!-- Book Section End -->
+
+<footer id="footer">
+        <div class="footer-content">
+            <div class="row" id="row1">
+                <a href="index.html" id="footer-logo">Eras Tour Travel</a>
+                <p>Want a perfect out of the country experience? Try Eras Tour Travel for your elegant and relaxing vacation. What are you waiting for? Book Now. </p>
+                <div class="socail-links">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <h3>Footer Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="package.html">Packages</a></li>
+                    <li><a href="#">Book</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="row" id="row3">
+                <h3>Other Links</h3>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">App Design</a></li>
+                    <li><a href="#">Game Design</a></li>
+                    <li><a href="#">Term & Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>           
+        </div>
+    </footer>
+
+
+<script type="text/javascript">   
+        function show() {   
+            alert("You Have Successfully Booked to Seoul, SouthKorea ☺️");   
+        }   
+    </script>   
+
+
+
+
+
+</body>
+</html>
